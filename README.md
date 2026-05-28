@@ -47,15 +47,16 @@ A web interface displaying the final multi-modal classification results, includi
 
 ---
 
+## Core Capabilities
+- **End-to-end Automated Review**: From APK upload to multi-label classification without manual intervention
+- **Resilient Workflow**: Native support for retries, timeouts, and degraded modes 
+- **High Throughput**: Async task queue + parallel workers to handle large-scale APK batches
+- **Human-in-the-loop Closed Loop**: MCP supports manual classification for single APKs and reclassifies low-scoring LLM samples into the database
+
+
 ## Tech Stack
 - **Orchestration**: LangGraph (StateGraph + conditional edges)
 - **Async & Concurrency**: Celery, Redis
 - **Storage**: PostgreSQL (MCP-managed human review results)
 - **Dynamic Testing**: Cloud Phone / ADB automation
 - **Classification**: Rule engine + LLM multi-modal fusion
-
-## Core Capabilities
-- **End-to-end Automated Review**: From APK upload to multi-label classification without manual intervention
-- **Resilient Workflow**: Native support for retries, timeouts, and degraded modes 
-- **High Throughput**: Async task queue + parallel workers to handle large-scale APK batches
-- **Human-in-the-loop Closed Loop**: MCP supports manual classification for single APKs and reclassifies low-scoring LLM samples into the database
