@@ -32,7 +32,7 @@ Extracting host and URL information from PCAP traffic captures during dynamic te
 
 
 ## 4. Structured Dynamic Testing Results
-Standardized structured output from APK dynamic analysis, including package name, version, certificates, and multi-modal classification.
+Standardized structured output from APK dynamic analysis, including package name, version, certificates, and multi-modal classification result.
 ![dynamic_result](https://github.com/lichong-007/Intelligent-APP-Classification-Agent-/blob/main/assets/dynamic_result.png)
 
 
