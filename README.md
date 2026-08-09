@@ -6,7 +6,7 @@ A high-concurrency APK automated review system that uses Celery and Redis for ba
 
 ## System Architecture & Workflow
 A StateGraph-based pipeline built with LangGraph, replacing hard-coded scripts with conditional edges to handle retries, degraded modes, and complex branching logic.
-![APPclass](https://github.com/lichong-007/Intelligent-APP-Classification-Agent/blob/main/assets/APPclass.png)
+![flow1](https://github.com/lichong-007/Intelligent-APP-Classification-Agent/blob/main/assets/flow1.png)
 
 
 ---
