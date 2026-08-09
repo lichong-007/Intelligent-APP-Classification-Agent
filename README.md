@@ -42,7 +42,6 @@ Standardized structured output from APK dynamic analysis, including package name
 ## 5. Final Classification Results Web Dashboard
 A web interface displaying the final multi-modal classification results, including app metadata, MD5, category labels, and review status, enabling quick lookup and human-in-the-loop management.
 ![app_classification(1)](https://github.com/lichong-007/Intelligent-APP-Classification-Agent/blob/main/assets/app_classification(1).png)
-![app_classification(2)](https://github.com/lichong-007/Intelligent-APP-Classification-Agent/blob/main/assets/app_classification(2).png)
 
 
 ---
